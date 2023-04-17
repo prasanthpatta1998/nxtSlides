@@ -1,0 +1,64 @@
+.nav-container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding-left: 2%;
+  background: #dbeafe;
+}
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 36px;
+  font-weight: 500;
+}
+.nxt-slides-container {
+  background-color: #f8fafc;
+  height: 100vh;
+}
+
+.new-button {
+  background: #dbeafe;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  align-items: center;
+  margin-left: 25px;
+  width: 90px;
+  height: 45px;
+  border-radius: 10px;
+}
+.plus-icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.new-name {
+  font-family: 'Bree Serif';
+  font-size: 17px;
+}
+
+.ul-items {
+  list-style-type: none;
+  overflow: auto;
+  width: 25%;
+}
+
+.slides {
+  display: flex;
+  height: 78%;
+  justify-content: space-around;
+}
+.current-slide {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 3px;
+}
